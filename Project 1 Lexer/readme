@@ -1,0 +1,60 @@
+.
+├── Decaf.g
+├── Reading Materials
+│   ├── brown-decaf-semantics.pdf
+│   ├── brown-decaf-syntax.pdf
+│   ├── sunysb-decaf.pdf
+│   └── tamu-decafOverview.pdf
+└── readme
+
+Part I. Reading Notes 阅读笔记
+	1. Decaf Language Reference Manual
+	Decaf language的词法和语法规范以sunysb-decaf版本为准，Brown和TAMU版本的文档作为参考。
+	
+	2. ANTLR v3 快速入门教程
+	Read TDAR(The Definitive ANTLR Reference) Chpt.1 Section 1.3~1.5, Chpt.3 Section 3.1
+	其他参考资料:
+	http://www.antlr.org/wiki/display/ANTLR3/FAQ+-+Getting+Started
+	http://www.antlr.org/wiki/display/ANTLR3/Five+minute+introduction+to+ANTLR+3
+		
+	3. Quick Review of Regular Expression, NFA, and DFA
+	Read Engineering A Compiler, 2ed Chpt.2 Section 2.1~2.4
+	其他参考资料:
+	CS373@UIUC lecture slides & videos:
+	http://www.cs.uiuc.edu/class/sp10/cs373/lectures/index.html
+	
+	4. (Optional)Implemeting Regular Expressions by Russ Cox
+	关于Coding实现正则表达式的一系列精彩文章:
+	http://swtch.com/~rsc/regexp/
+	
+	5. (Optional)Hand-coding Lexer(手写词法分析器)
+	Read Engineering A Compiler, 2ed Chpt.2 Section 2.5
+	
+	相关Project:
+	cs164fa04@berkeley PA2:
+	http://www-inst.eecs.berkeley.edu/~cs164/fa04/Assignments/pa2.pdf
+	
+	6. LL-based Grammar Analysis
+	
+	
+	7. LL-based Lexer vs. DFA-based Lexer &
+	   ANTLR vs. Lex, Flex
+	
+	
+	8. ANTLR v3's Predicated-LL(*) Lexer	
+	Read "ANTLR lexer in depth":
+	https://wincent.com/wiki/ANTLR_lexers_in_depth
+
+
+Part II. Solution 解答
+	"Decision Point"
+
+	Show Decision DFA
+	
+	Test Rig
+
+
+Part III. How To Test & Test Cases 测试方法与数据
+
+
+
